@@ -24,10 +24,10 @@
 #         'link': 'https://proprojectp19-uxf8aemmhm6lph4tcntwrx.streamlit.app/'
 #     },
 #     {
-#         'name': 'Project 2',
-#         'description': 'Machine Learning deployment project.',
-#         'link': 'https://mlprojectp19-hdbfn8anguoftpumgrzbrl.streamlit.app/'
-#     }
+#        'name': 'Project 2',
+#        'description': 'Customer Churn Prediction (Deep Learning) P_19.',
+#        'link': 'https://churnpredictionp19-evkjk4fzrarzujckjevh9h.streamlit.app/'
+#    }
 # ]
 
 # st.markdown('''
@@ -130,21 +130,21 @@ PROJECTS = [
     },
     {
         'name': 'Project 2',
-        'description': 'Machine Learning deployment project.',
-        'link': 'https://mlprojectp19-hdbfn8anguoftpumgrzbrl.streamlit.app/'
+        'description': 'Customer Churn Prediction (Deep Learning) P_19.',
+        'link': 'https://churnpredictionp19-evkjk4fzrarzujckjevh9h.streamlit.app/'
     },
     {
-        'name': 'Car Model Prediction App',
+        'name': 'Project 3',
         'description': 'FastAPI + ML powered car model prediction project.',
         'link': 'https://fastapicarmodelprediction-5wfyhdredwxwykagdh9ruo.streamlit.app/'
     },
     {
-        'name': 'Mental Health Prediction App',
+        'name': 'Project 4',
         'description': 'ML application focused on mental health prediction.',
         'link': 'https://mentalhealthproject-vggmug4wh94z3zqj8mgyyp.streamlit.app/'
     },
     {
-        'name': 'Revenue Prediction App',
+        'name': 'Project 5 ',
         'description': 'Business revenue forecasting machine learning application.',
         'link': 'https://revenueprediction-jqtcydvcaxpcm3aj5ex2am.streamlit.app/'
     }
