@@ -1,3 +1,4 @@
+#  this code is normal my_portfolio
 # import streamlit as st
 
 # st.set_page_config(
@@ -100,7 +101,9 @@
 #     </div>
 #     ''', unsafe_allow_html=True)
 #     st.link_button('Connect on LinkedIn', SOCIAL_LINKS['LinkedIn'])
+# 
 
+# This code is upgraded verion of my_portfolio 
 import streamlit as st
 
 st.set_page_config(
