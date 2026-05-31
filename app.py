@@ -472,8 +472,6 @@ elif page == "Contact":
 
         ✔ Internship Opportunities
 
-        ✔ Freelance Projects
-
         ✔ Machine Learning Projects
 
         ✔ Data Engineering Projects
