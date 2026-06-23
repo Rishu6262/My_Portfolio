@@ -42,6 +42,11 @@
 #         'description': 'Business revenue forecasting machine learning application.',
 #         'link': 'https://revenueprediction-jqtcydvcaxpcm3aj5ex2am.streamlit.app/'
 #     }
+      # {
+      #   "name": "AI-Powered Resume Analyzer",
+      #   "description": "Advanced ATS Resume Screening System using NLP, Machine Learning, Deep Learning, FastAPI, Streamlit and Render Deployment.",
+      #   "link": "https://ai-poweredresumescheckerp19.streamlit.app/"
+      # }
 # ]
 
 # st.markdown('''
@@ -214,6 +219,11 @@ PROJECTS = [
         "name": "Revenue Prediction",
         "description": "Business revenue forecasting using Machine Learning.",
         "link": "https://revenueprediction-jqtcydvcaxpcm3aj5ex2am.streamlit.app/"
+    },
+    {
+        "name": "AI-Powered Resume Analyzer",
+        "description": "Advanced ATS Resume Screening System using NLP, Machine Learning, Deep Learning, FastAPI, Streamlit and Render Deployment.",
+        "link": "https://ai-poweredresumescheckerp19.streamlit.app/"
     }
 ]
 
