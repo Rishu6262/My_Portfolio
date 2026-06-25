@@ -339,6 +339,26 @@ I am a quick learner, self-motivated, and enjoy solving real-world problems thro
 
 I am excited about this opportunity and look forward to learning, growing, and adding value to your organization.
 
+
+"In the next five years, I see myself as a highly skilled Python Developer and Data Scientist with strong expertise in Machine Learning, Artificial Intelligence, and Data Analytics. I want to gain hands-on industry experience by working on real-world projects that solve meaningful business and social problems.
+
+As I grow professionally, I would like to take on more responsibilities, mentor junior team members, and contribute to the development of innovative AI solutions. I am particularly interested in using AI and data science to create practical applications that can make a positive impact.
+
+I am also passionate about education and technology. In the long term, I would like to contribute to improving AI awareness and education in India by sharing knowledge, building useful projects, and helping more students understand and adopt emerging technologies.
+
+Overall, my goal is to continuously learn, grow into a senior technical role, and contribute both to my organization’s success and to the advancement of AI in India."
+
+"One of my weaknesses is that sometimes I spend extra time on a task because I want the result to be as accurate and high-quality as possible. While this helps me maintain good quality, I realized that it can sometimes affect my speed.
+
+To improve this, I have started focusing more on time management and task prioritization. I set clear deadlines for myself and break larger tasks into smaller milestones. This helps me balance both quality and efficiency.
+
+I believe continuous improvement is important, and I am actively working on this area."
+
+"My biggest strength is my problem-solving ability. I enjoy analyzing problems and finding effective solutions. While working on my machine learning projects, I often faced challenges related to data cleaning, feature selection, and model accuracy. Instead of giving up, I researched different approaches, experimented with multiple models, and improved the overall performance of the projects.
+
+Another strength is that I am a quick learner. Technology is constantly evolving, and I enjoy learning new tools and concepts. For example, while building my projects, I learned Python libraries such as Pandas, NumPy, Scikit-learn, and also explored PostgreSQL and Streamlit on my own.
+
+I am also a dedicated and disciplined person. Once I commit to a task, I make sure to complete it on time and with quality. Additionally, I work well in teams, communicate effectively, and am always open to feedback because I believe continuous improvement is important for professional growth."
     I have built multiple real-world projects including:
 
     - Email Spam Classifier
