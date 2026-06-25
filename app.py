@@ -347,6 +347,7 @@ I am excited about this opportunity and look forward to learning, growing, and a
     - Revenue Prediction
     - Mental Health Prediction
     - AI resume Cheacker 
+    - More Project like this
 
     I enjoy solving real-world problems through data-driven solutions and
     continuously improving my skills in AI, Data Engineering and Software Development.
