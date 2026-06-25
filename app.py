@@ -366,6 +366,8 @@ I am excited about this opportunity and look forward to learning, growing, and a
 
     ✔ Deep Learning
 
+    ✔ GenAI
+
     ✔ NLP
 
     ✔ TensorFlow
@@ -374,6 +376,10 @@ I am excited about this opportunity and look forward to learning, growing, and a
 
     ✔ NumPy
 
+    ✔ Seaborn
+
+    ✔ Matplotlib
+
     ✔ Streamlit
 
     ✔ FastAPI
@@ -381,6 +387,12 @@ I am excited about this opportunity and look forward to learning, growing, and a
     ✔ Git & GitHub
 
     ✔ Data Analysis
+    
+    ✔ PowerBI
+
+    ✔ MSexcle
+
+    ✔ PostgreSQL
     """)
 
 # ======================
