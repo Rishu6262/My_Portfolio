@@ -348,7 +348,9 @@ elif page == "About Me":
 
 ->  My biggest strength is my problem-solving ability. I enjoy analyzing problems and finding effective solutions. While working on my machine learning projects, I often faced challenges related to data cleaning, feature selection, and model accuracy. Instead of giving up, I researched different approaches, experimented with multiple models, and improved the overall performance of the projects.
     Another strength is that I am a quick learner. Technology is constantly evolving, and I enjoy learning new tools and concepts. For example, while building my projects, I learned Python libraries such as Pandas, NumPy, Scikit-learn, and also explored PostgreSQL and Streamlit on my own.
-    I am also a dedicated and disciplined person. Once I commit to a task, I make sure to complete it on time and with quality. Additionally, I work well in teams, communicate effectively, and am always open to feedback because I believe continuous improvement is important for professional growth."
+    I am also a dedicated and disciplined person. Once I commit to a task, I make sure to complete it on time and with quality. Additionally, I work well in teams, communicate effectively, and am always open to feedback because 
+    I believe continuous improvement is important for professional growth."
+    
     I have built multiple real-world projects including:
 
     - Email Spam Classifier
