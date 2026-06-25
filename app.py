@@ -329,10 +329,15 @@ elif page == "About Me":
     st.title("👨‍💻 About Me")
 
     st.markdown("""
-    ### Hi, I'm Rishu Gurjar
+    ### Hello Sir/Ma'am,
 
-    Aspiring Data Engineer and Machine Learning Engineer with hands-on experience in
-    Python, SQL, Machine Learning, Deep Learning, NLP, Data Analysis, and Streamlit.
+My name is Rishu Gurjar, and I am currently pursuing a Bachelor's degree in Computer Science. I am passionate about Python Development, Machine Learning, Deep Learning, GenAI and Data Analytics.
+
+I have worked on several projects such as Placement Prediction, Agriculture Price Prediction, Weather Forecast Prediction, Customer Churn Prediction . Through these projects, I have gained practical experience in Python, SQL, PostgreSQL, Scikit-learn, and Streamlit.
+
+I am a quick learner, self-motivated, and enjoy solving real-world problems through technology. My goal is to become a skilled Python Developer and Data Scientist while continuously learning and contributing to innovative projects.
+
+I am excited about this opportunity and look forward to learning, growing, and adding value to your organization.
 
     I have built multiple real-world projects including:
 
@@ -341,6 +346,7 @@ elif page == "About Me":
     - Customer Churn Prediction
     - Revenue Prediction
     - Mental Health Prediction
+    - AI resume Cheacker 
 
     I enjoy solving real-world problems through data-driven solutions and
     continuously improving my skills in AI, Data Engineering and Software Development.
