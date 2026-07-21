@@ -174,6 +174,42 @@ with right:
 
 ☁ FastAPI
 
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="section-title">
+    🚀 Journey
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+
+<div class="timeline">
+
+<div class="timeline-card">
+<h3>2024</h3>
+Started Python Programming
+</div>
+
+<div class="timeline-card">
+<h3>2025</h3>
+Built Multiple Machine Learning Projects
+</div>
+
+<div class="timeline-card">
+<h3>2026</h3>
+Learning Data Engineering & FastAPI
+</div>
+
+<div class="timeline-card">
+<h3>2027 Goal</h3>
+Machine Learning Engineer Internship
+</div>
+
+</div>
+
+""", unsafe_allow_html=True)
+
 🚀 Open To Internship
 
 </div>
