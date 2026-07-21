@@ -121,3 +121,60 @@ with col4:
     <p>Internship</p>
     </div>
     """, unsafe_allow_html=True)
+# ==========================================
+# ABOUT ME
+# ==========================================
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="section-title">
+    👨 About Me
+</div>
+""", unsafe_allow_html=True)
+
+left, right = st.columns([1.2, 1])
+
+with left:
+
+    st.markdown("""
+<div class="glass">
+
+### Hi, I'm **Rishu Gurjar** 👋
+
+I'm a passionate **Python Developer**, **Machine Learning Engineer**, and **Data Engineering Enthusiast**.
+
+I enjoy building AI-powered applications, solving real-world business problems, and continuously learning modern technologies.
+
+Currently pursuing **B.Tech in Computer Science**, I'm actively looking for Internship opportunities where I can contribute while learning from experienced engineers.
+
+🚀 My Goal is to become an AI Engineer capable of building production-ready intelligent systems.
+
+</div>
+""", unsafe_allow_html=True)
+
+with right:
+
+    st.markdown("""
+<div class="glass">
+
+## 🎯 Quick Info
+
+🎓 B.Tech (Computer Science)
+
+📍 Bhopal, India
+
+💻 Python Developer
+
+🤖 Machine Learning
+
+📊 Data Analytics
+
+🗄 PostgreSQL
+
+☁ FastAPI
+
+🚀 Open To Internship
+
+</div>
+""", unsafe_allow_html=True)
