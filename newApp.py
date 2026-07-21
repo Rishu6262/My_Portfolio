@@ -178,12 +178,11 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 
 st.markdown("""
 <div class="section-title">
-    🚀 Journey
+🚀 Journey
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("""
-
 <div class="timeline">
 
 <div class="timeline-card">
@@ -206,12 +205,5 @@ Learning Data Engineering & FastAPI
 Machine Learning Engineer Internship
 </div>
 
-</div>
-
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="section-title">
-🚀 Journey
 </div>
 """, unsafe_allow_html=True)
