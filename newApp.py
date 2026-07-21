@@ -210,7 +210,8 @@ Machine Learning Engineer Internship
 
 """, unsafe_allow_html=True)
 
-🚀 Open To Internship
-
+st.markdown("""
+<div class="section-title">
+🚀 Journey
 </div>
 """, unsafe_allow_html=True)
