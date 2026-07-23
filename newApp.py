@@ -124,7 +124,7 @@ with col4:
 SOCIAL_LINKS = {
     "LinkedIn": "https://www.linkedin.com/in/rishu-gurjar-58072a333/",
     "GitHub": "https://github.com/Rishu6262",
-    "LeetCode": "https://leetcode.com/u/rishu6262/",
+    "Render": https://dashboard.render.com/,
     "Instagram": "https://www.instagram.com/gurjar_sahab_jii_/?hl=en",
     "Streamlit": "https://share.streamlit.io/user/rishu6262",
     "Resume": "https://drive.google.com/file/d/1vPA-ThfKORseUxF6D9aLfHna8nGLVxjL/view?usp=sharing"
