@@ -106,13 +106,13 @@ with col2:
     </div>
     """, unsafe_allow_html=True)
     
-# with col3:
-#     st.markdown("""
-#     <div class='card'>
-#     <h1>250+</h1>
-#     <p>LeetCode Problems</p>
-#     </div>
-#     """, unsafe_allow_html=True)
+with col3:
+    st.markdown("""
+    <div class='card'>
+    <h1>15+</h1>
+    <p>LeetCode Problems</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 with col4:
     st.markdown("""
