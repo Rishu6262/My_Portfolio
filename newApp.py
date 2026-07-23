@@ -93,26 +93,26 @@ col1,col2,col3,col4 = st.columns(4)
 with col1:
     st.markdown("""
     <div class='card'>
-    <h1>15+</h1>
-    <p>Projects</p>
+    <h1>25+</h1>
+    <p>ALL_Projects</p>
     </div>
     """, unsafe_allow_html=True)
 
 with col2:
     st.markdown("""
     <div class='card'>
-    <h1>20+</h1>
+    <h1>10+</h1>
     <p>Skills</p>
     </div>
     """, unsafe_allow_html=True)
     
-with col3:
-    st.markdown("""
-    <div class='card'>
-    <h1>250+</h1>
-    <p>LeetCode Problems</p>
-    </div>
-    """, unsafe_allow_html=True)
+# with col3:
+#     st.markdown("""
+#     <div class='card'>
+#     <h1>250+</h1>
+#     <p>LeetCode Problems</p>
+#     </div>
+#     """, unsafe_allow_html=True)
 
 with col4:
     st.markdown("""
@@ -121,6 +121,32 @@ with col4:
     <p>Internship</p>
     </div>
     """, unsafe_allow_html=True)
+SOCIAL_LINKS = {
+    "LinkedIn": "https://www.linkedin.com/in/rishu-gurjar-58072a333/",
+    "GitHub": "https://github.com/Rishu6262",
+    "LeetCode": "https://leetcode.com/u/rishu6262/",
+    "Instagram": "https://www.instagram.com/gurjar_sahab_jii_/?hl=en",
+    "Streamlit": "https://share.streamlit.io/user/rishu6262",
+    "Resume": "https://drive.google.com/file/d/1vPA-ThfKORseUxF6D9aLfHna8nGLVxjL/view?usp=sharing"
+}
+
+st.markdown("<br>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'>🌐 Connect With Me</div>", unsafe_allow_html=True)
+
+cols = st.columns(3)
+
+for i, (name, url) in enumerate(SOCIAL_LINKS.items()):
+    with cols[i % 3]:
+        st.markdown(
+            f"""
+            <a href="{url}" target="_blank" style="text-decoration:none;">
+                <div class="social-card">
+                    <h3>{name}</h3>
+                </div>
+            </a>
+            """,
+            unsafe_allow_html=True,
+        )
 # ==========================================
 # ABOUT ME
 # ==========================================
