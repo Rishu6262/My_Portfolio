@@ -213,3 +213,10 @@ Machine Learning Engineer Internship
 </div>
 
 """, unsafe_allow_html=True)
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="section-title">
+🛠 Technical Skills
+</div>
+""", unsafe_allow_html=True)
