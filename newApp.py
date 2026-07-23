@@ -181,6 +181,6 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 
 st.markdown("""
 <div class="section-title">
-         🛠 Technical Skills
+          Technical Skills
 </div>
 """, unsafe_allow_html=True)
