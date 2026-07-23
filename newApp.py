@@ -75,12 +75,12 @@ with left:
     with c2:
         st.button("💼 Hire Me", use_container_width=True)
 
-with right:
+# with right:
 
-    st.image(
-        "assets/profile.png",
-        width=350
-    )
+#     st.image(
+#         "assets/profile.png",
+#         width=350
+#     )
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 
