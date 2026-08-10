@@ -100,3 +100,39 @@ Some of the projects showcased in my portfolio include:
 | 📁 File & Folder CRUD System | Python, Pathlib | Python Development |
 
 ---
+
+## 📊 Portfolio Highlights
+
+The portfolio focuses on building projects that demonstrate the complete development lifecycle:
+
+```text
+Problem Identification
+        ↓
+Data Collection
+        ↓
+Data Preprocessing
+        ↓
+Exploratory Data Analysis
+        ↓
+Model Development
+        ↓
+Model Evaluation
+        ↓
+Application Development
+        ↓
+Deployment
+        ↓
+Real-World Application
+```
+
+---
+
+## 🎯 My Career Focus
+
+I am continuously working toward becoming a strong:
+
+- 🤖 **AI Engineer**
+- 🧠 **Machine Learning Engineer**
+- 📊 **Data Scientist**
+- 🐍 **Python Developer**
+- 🧠 **Deep Learning Engineer**
