@@ -79,3 +79,24 @@ My portfolio is designed to provide a complete overview of my technical journey 
 - Jupyter Notebook
 
 ---
+
+## 🚀 Featured Projects
+
+Some of the projects showcased in my portfolio include:
+
+| Project | Technology | Category |
+|---------|------------|----------|
+| 🌦️ Weather Rain Prediction | Python, ML, Streamlit | Machine Learning |
+| 🚗 Car Price Prediction | Python, Scikit-learn | Machine Learning |
+| 💼 Salary Prediction | Python, ML, Streamlit | Data Science |
+| 🚕 Taxi Trip Pricing Prediction | Python, ML | Machine Learning |
+| 📧 Spam Email Classifier | NLP, Deep Learning | AI / NLP |
+| 📄 AI Resume Parser | NLP, SpaCy, Streamlit | Artificial Intelligence |
+| 🏦 Bank Management System | Python, OOP, JSON | Python Development |
+| 🏨 Hotel Management System | Python | Python Development |
+| 🛒 E-Commerce Sales Prediction | ML, FastAPI, Streamlit | Machine Learning |
+| 🏏 IPL Batters Analysis | Python, Pandas, Visualization | Data Analytics |
+| 💧 Water Intake Prediction | Python, ML, Streamlit | Machine Learning |
+| 📁 File & Folder CRUD System | Python, Pathlib | Python Development |
+
+---
