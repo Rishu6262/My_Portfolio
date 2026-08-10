@@ -130,6 +130,32 @@ Real-World Application
 ## 🎯 My Career Focus
 
 I am continuously working toward becoming a strong:
+- 🤖 **AI Engineer**
+- 🧠 **Machine Learning Engineer**
+- 📊 **Data Scientist**
+- 🐍 **Python Developer**
+- 🧠 **Deep Learning Engineer**
+
+My primary focus is on developing practical skills by building **real-world, end-to-end projects** rather than only learning theoretical concepts.
+
+---
+
+## 📚 Current Learning Areas
+
+I am continuously improving my knowledge in:
+
+- Advanced Python
+- Data Science
+- Machine Learning
+- Deep Learning
+- Natural Language Processing
+- Generative AI
+- AI Application Development
+- Data Analytics
+- Model Deployment
+- API Development
+
+---
 
 - 🤖 **AI Engineer**
 - 🧠 **Machine Learning Engineer**
