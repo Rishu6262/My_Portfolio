@@ -1,12 +1,14 @@
-# My_Portfolio
+# 🚀 Rishu Gurjar — Personal Portfolio Hub
 
-# 🚀 Rishu Gurjar - Personal Portfolio Hub
+### 👨‍💻 Python Developer | 📊 Data Science | 🤖 Machine Learning | 🧠 AI & Deep Learning
 
-<div align="center">
+Welcome to my **Personal Portfolio Hub**! 👋
 
-### 🌟 Data Science | Machine Learning | Python Developer
+This repository contains my personal portfolio, built using **Python and Streamlit**, to showcase my journey in **Software Development, Data Science, Machine Learning, Artificial Intelligence, and Generative AI**.
 
-A premium personal portfolio hub built with **Python + Streamlit** to showcase my projects, coding profiles, achievements, and professional journey.
+The portfolio brings together my **real-world projects, technical skills, coding profiles, achievements, learning journey, and professional information** in one interactive platform.
+
+---
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-Live_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://share.streamlit.io/user/rishu6262)
 [![GitHub](https://img.shields.io/badge/GitHub-Rishu6262-181717?style=for-the-badge&logo=github)](https://github.com/Rishu6262)
