@@ -39,12 +39,43 @@ My portfolio is designed to provide a complete overview of my technical journey 
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Technologies & Skills
 
-```python
-Python
-Streamlit
-Git
-GitHub
-Machine Learning
-FastAPI
+### 🐍 Programming
+- Python
+- C++
+- SQL
+
+### 📊 Data Science
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Exploratory Data Analysis (EDA)
+
+### 🤖 Machine Learning
+- Scikit-learn
+- Regression
+- Classification
+- Feature Engineering
+- Model Evaluation
+- Predictive Modeling
+
+### 🧠 AI & Deep Learning
+- TensorFlow
+- Keras
+- Neural Networks
+- NLP
+- RNN
+- LSTM
+- GRU
+- Generative AI
+
+### 🌐 Development & Deployment
+- Streamlit
+- FastAPI
+- Git
+- GitHub
+- Jupyter Notebook
+
+---
