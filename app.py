@@ -525,35 +525,30 @@
 #         "Connect on LinkedIn",
 #         SOCIAL_LINKS["LinkedIn"]
 #     )
+# ``````````````````````````````````````````````````````````````````````````````````````````````````````````
 from pathlib import Path
 
 source_path = Path("/mnt/data/Pasted text(20260825-175241).txt")
 original = source_path.read_text(encoding="utf-8")
 
-# Replace only the CSS + navigation styling section.
 start = original.index("# CSS")
 end = original.index("# ======================\n# HOME", start)
 
 new_ui = r'''# CSS
 # ======================
 
-st.markdown("""
+st.markdown(r"""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
-/* --------------------------------------------------
-   GLOBAL THEME
--------------------------------------------------- */
 :root {
     --bg: #f4f5f7;
     --surface: #ffffff;
-    --surface-soft: #eef1f4;
     --text: #17191c;
     --muted: #68707a;
     --border: #dfe3e8;
     --accent: #2563eb;
     --accent-soft: #eaf1ff;
-    --sidebar: #eceff2;
 }
 
 .stApp {
@@ -565,14 +560,12 @@ st.markdown("""
     font-family: 'DM Sans', sans-serif;
 }
 
-/* Remove Streamlit's default top padding */
 .block-container {
     padding-top: 1.25rem;
     padding-bottom: 3rem;
     max-width: 1400px;
 }
 
-/* Main typography */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Space Grotesk', sans-serif !important;
     color: var(--text) !important;
@@ -584,9 +577,7 @@ p, li, .stMarkdown, .stText {
     line-height: 1.75;
 }
 
-/* --------------------------------------------------
-   TOP NAV / HEADER
--------------------------------------------------- */
+/* ---------- TOP NAV ---------- */
 .portfolio-topbar {
     display: flex;
     align-items: center;
@@ -594,7 +585,7 @@ p, li, .stMarkdown, .stText {
     gap: 18px;
     padding: 14px 18px;
     margin-bottom: 24px;
-    background: rgba(255, 255, 255, 0.82);
+    background: rgba(255, 255, 255, 0.86);
     border: 1px solid var(--border);
     border-radius: 16px;
     box-shadow: 0 8px 30px rgba(15, 23, 42, 0.05);
@@ -606,6 +597,7 @@ p, li, .stMarkdown, .stText {
     font-weight: 700;
     font-size: 1rem;
     letter-spacing: 0.04em;
+    white-space: nowrap;
 }
 
 .portfolio-brand span {
@@ -634,9 +626,7 @@ p, li, .stMarkdown, .stText {
     border-color: #cfe0ff;
 }
 
-/* --------------------------------------------------
-   SIDEBAR / SLIDE NAVIGATION
--------------------------------------------------- */
+/* ---------- SIDEBAR / SLIDE NAV ---------- */
 section[data-testid="stSidebar"] {
     background: linear-gradient(180deg, #eceff2 0%, #e7eaee 100%);
     border-right: 1px solid var(--border);
@@ -676,17 +666,14 @@ section[data-testid="stSidebar"] [role="radio"][aria-checked="true"] {
     color: var(--accent);
 }
 
-/* --------------------------------------------------
-   HERO
--------------------------------------------------- */
+/* ---------- HERO ---------- */
 .hero {
     position: relative;
     overflow: hidden;
     padding: 42px;
     border-radius: 24px;
     margin-bottom: 22px;
-    background:
-        linear-gradient(135deg, rgba(255,255,255,0.98), rgba(239,244,250,0.96));
+    background: linear-gradient(135deg, rgba(255,255,255,0.98), rgba(239,244,250,0.96));
     border: 1px solid var(--border);
     box-shadow: 0 18px 50px rgba(15, 23, 42, 0.07);
 }
@@ -723,9 +710,7 @@ section[data-testid="stSidebar"] [role="radio"][aria-checked="true"] {
     color: #59616b;
 }
 
-/* --------------------------------------------------
-   CARDS
--------------------------------------------------- */
+/* ---------- CARDS ---------- */
 .card {
     background: rgba(255, 255, 255, 0.94);
     padding: 24px;
@@ -750,9 +735,7 @@ section[data-testid="stSidebar"] [role="radio"][aria-checked="true"] {
     color: #626b75;
 }
 
-/* --------------------------------------------------
-   METRICS
--------------------------------------------------- */
+/* ---------- METRICS ---------- */
 [data-testid="stMetric"] {
     background: rgba(255,255,255,0.9);
     border: 1px solid var(--border);
@@ -770,9 +753,7 @@ section[data-testid="stSidebar"] [role="radio"][aria-checked="true"] {
     font-family: 'Space Grotesk', sans-serif;
 }
 
-/* --------------------------------------------------
-   BUTTONS
--------------------------------------------------- */
+/* ---------- BUTTONS ---------- */
 .stLinkButton > a,
 .stButton > button {
     border-radius: 11px !important;
@@ -792,20 +773,15 @@ section[data-testid="stSidebar"] [role="radio"][aria-checked="true"] {
     box-shadow: 0 8px 20px rgba(37, 99, 235, 0.10);
 }
 
-/* --------------------------------------------------
-   INFO BOX
--------------------------------------------------- */
 div[data-testid="stAlert"] {
     border-radius: 14px;
     border: 1px solid #d7e3f7;
 }
 
-/* Divider */
 hr {
     border-color: var(--border) !important;
 }
 
-/* Mobile polish */
 @media (max-width: 768px) {
     .block-container {
         padding-left: 1rem;
@@ -830,105 +806,6 @@ hr {
 """, unsafe_allow_html=True)
 
 # ======================
-# TOP NAVIGATION BAR
-# ======================
-
-current_nav = page if "page" in locals() else "Home"
-
-nav_items = ["Home", "About Me", "Projects", "Resumes", "Social Hub", "Contact"]
-
-nav_html = "".join(
-    f"<span class='{'active' if item == current_nav else ''}'>{item}</span>"
-    for item in nav_items
-)
-
-st.markdown(
-    f"""
-    <div class="portfolio-topbar">
-        <div class="portfolio-brand">RISHU <span>GURJAR</span></div>
-        <div class="portfolio-nav">{nav_html}</div>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-# ======================
-# SIDEBAR
-# ======================
-
-with st.sidebar:
-    st.title("🚀 Navigation")
-
-    page = st.radio(
-        "Select Section",
-        [
-            "🏠 Home",
-            "👨‍💻 About Me",
-            "🔥 Projects",
-            "📄 Resumes",
-            "🌐 Social Hub",
-            "📩 Contact"
-        ]
-    )
-
-# Keep the original page values used by the existing content logic.
-page = page.split(" ", 1)[1] if " " in page else page
-
-# ======================
-# HOME
-'''
-# Need current_nav is before page is defined in original; fix by replacing the entire section
-# with a version where sidebar comes first, then top nav.
-new_ui = new_ui.replace(
-"""# ======================
-# TOP NAVIGATION BAR
-# ======================
-
-current_nav = page if "page" in locals() else "Home"
-
-nav_items = ["Home", "About Me", "Projects", "Resumes", "Social Hub", "Contact"]
-
-nav_html = "".join(
-    f"<span class='{'active' if item == current_nav else ''}'>{item}</span>"
-    for item in nav_items
-)
-
-st.markdown(
-    f"""
-    <div class="portfolio-topbar">
-        <div class="portfolio-brand">RISHU <span>GURJAR</span></div>
-        <div class="portfolio-nav">{nav_html}</div>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-# ======================
-# SIDEBAR
-# ======================
-
-with st.sidebar:
-    st.title("🚀 Navigation")
-
-    page = st.radio(
-        "Select Section",
-        [
-            "🏠 Home",
-            "👨‍💻 About Me",
-            "🔥 Projects",
-            "📄 Resumes",
-            "🌐 Social Hub",
-            "📩 Contact"
-        ]
-    )
-
-# Keep the original page values used by the existing content logic.
-page = page.split(" ", 1)[1] if " " in page else page
-
-# ======================
-# HOME
-""",
-"""# ======================
 # SIDEBAR / SLIDE NAVIGATION
 # ======================
 
@@ -947,7 +824,6 @@ with st.sidebar:
         ]
     )
 
-# Keep the original page values used by the existing content logic.
 page = page.split(" ", 1)[1] if " " in page else page
 
 # ======================
@@ -955,6 +831,7 @@ page = page.split(" ", 1)[1] if " " in page else page
 # ======================
 
 nav_items = ["Home", "About Me", "Projects", "Resumes", "Social Hub", "Contact"]
+
 nav_html = "".join(
     f"<span class='{'active' if item == page else ''}'>{item}</span>"
     for item in nav_items
@@ -972,10 +849,8 @@ st.markdown(
 
 # ======================
 # HOME
-"""
-)
+'''
 
-# Reattach the rest of the original app after the old CSS/navigation section.
 rest = original[original.index("# ======================\n# HOME", start):]
 final_app = original[:start] + new_ui + rest[len("# ======================\n# HOME"):]
 
@@ -985,7 +860,6 @@ out.write_text(final_app, encoding="utf-8")
 req = Path("/mnt/data/requirements.txt")
 req.write_text("streamlit>=1.40.0,<2.0.0\n", encoding="utf-8")
 
-print(f"Created: {out}")
-print(f"Created: {req}")
-print("Original content/data sections were kept; only UI CSS/navigation styling was changed.")
-
+print("Created app_ui_redesigned.py")
+print("Created requirements.txt")
+print(f"Lines in app: {len(final_app.splitlines())}")
