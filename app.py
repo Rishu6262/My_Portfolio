@@ -546,6 +546,16 @@ div[data-testid="stMetric"]{
     border: 1px solid #E7EBF3;
     box-shadow: 0 6px 18px rgba(15,23,42,0.05);
 }
+div[data-testid="stMetricLabel"] * {
+    color: #334155 !important;
+    font-weight: 600 !important;
+    opacity: 1 !important;
+}
+div[data-testid="stMetricValue"] * {
+    color: #0F172A !important;
+    font-weight: 800 !important;
+    opacity: 1 !important;
+}
 
 /* ---------- Buttons / link buttons ---------- */
 .stLinkButton a{
