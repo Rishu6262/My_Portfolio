@@ -16,7 +16,7 @@
 #     "LinkedIn": "https://www.linkedin.com/in/rishu-gurjar-58072a333/",
 #     "GitHub": "https://github.com/Rishu6262",
 #     "LeetCode": "https://leetcode.com/u/rishu6262/",
-#     "Instagram": "https://www.instagram.com/gurjar_sahab_jii_/",
+#     "Instagram": "https://www.instagram.com/rishu_gurjar_010/?hl=en",
 #     "Streamlit": "https://share.streamlit.io/user/rishu6262",
 # }
 
@@ -381,7 +381,7 @@ SOCIAL_LINKS = {
     "LinkedIn": "https://www.linkedin.com/in/rishu-gurjar-58072a333/",
     "GitHub": "https://github.com/Rishu6262",
     "LeetCode": "https://leetcode.com/u/rishu6262/",
-    "Instagram": "https://www.instagram.com/gurjar_sahab_jii_/",
+    "Instagram": "https://www.instagram.com/rishu_gurjar_010/?hl=en",
     "Streamlit": "https://share.streamlit.io/user/rishu6262",
 }
 
